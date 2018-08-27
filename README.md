@@ -4,7 +4,7 @@
   
   I've implemented 3 different neural networks. The first one (Cats_Dogs_1.ipynb) consists of bunch of Convolution and Pooling layers, all trained from scratch. This gives **74.2% accuracy** on 30 epochs. The second implementation (Cats_Dogs_2.ipynb) makes the use of ImageDataGenerator along with a model similar to that of the first example. This gives **80% accuracy** after training for 50 epochs. The third model (Cats_Dogs_4.ipynb) uses a pre-trained VGG16 model, initially with a self-trained classifier, and again with fine tuning of the fifth convolutional block and the self-trained classifier. This gives **94% accuracy** on 30 epochs.
   
-  Thus, the various techniques of applying Convolution Neural Networks in Image Classification are shown, and the results clearly indicate which method are superior in terms of accuracy.
+  Thus, the various techniques of applying Convolution Neural Networks in Image Classification are shown, and the results clearly indicate which methods are superior in terms of accuracy.
   
   All implementations are made using **Keras**. This example was inspired by the book **Deep Learning with Python** written by Keras author Francois Chollet. 
   
